@@ -1,10 +1,11 @@
 {
-  "name": "flag_project",
+  "name": "ethiopian_flag",
   "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun run --watch index.html"
+    "dev": "bun run --watch index.html",
+    "build": "bun build index.js --outdir /dist --target browser"
   },
   "devDependencies": {
     "@types/bun": "latest"
