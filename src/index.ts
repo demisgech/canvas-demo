@@ -1,4 +1,4 @@
-import { Flag } from './src/Flag';
+import { Flag } from './Flag';
 
 // Wait for DOM to be ready
 if (document.readyState === 'loading') {
@@ -16,6 +16,3 @@ function init() {
         console.error('Error drawing flag:', error);
     }
 }
-
-// Export for potential module usage
-export { Flag };
