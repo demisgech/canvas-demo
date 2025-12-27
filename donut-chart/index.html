@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive Donut Chart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <aside id="sidebar">
+        <h2>Items</h2>
+        <div class="input-group">
+          <input type="text" id="itemName" placeholder="Name" />
+          <input type="number" id="itemValue" placeholder="Value" />
+          <button type="button" id="addBtn">Add</button>
+        </div>
+        <div id="items" class="items"></div>
+      </aside>
+
+      <main id="chart-container">
+        <canvas id="chart" width="500" height="500"></canvas>
+      </main>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
